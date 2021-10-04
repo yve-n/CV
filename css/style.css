@@ -1,0 +1,81 @@
+/*general*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+section{
+    padding: 45px 0 80px 0;
+}
+section .heading{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.red-divider{
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    background: #d82c2e;
+}
+
+/*About*/
+#about{
+    padding-top: 100px;
+    background: #d82c2e;
+}
+.profile-picture{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+#about .heading h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+#about .heading h3{
+    color: #000;
+}
+.button1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+}
+.button1:hover{
+    background: #fff;
+    color: #d82c2e;
+    
+}
+
+/* skills */
+#skills{
+    background: #fff;    
+}
+#skills .heading h2{
+    color: #d82c2e;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+#skills .progress{
+    height: 20%;
+    margin: 30px 20px;
+    background: #ddd;
+}
+#skills .progress-bar{
+    background: #d82c2e;
+}
+#skills .progress h5{
+    text-shadow: 3px 3px 3px #000;
+}
+
