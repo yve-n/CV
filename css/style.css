@@ -35,6 +35,35 @@ section .heading h2{
     margin: 0 auto;
     background: #fff;
 }
+body{
+    position: relative;
+}
+
+/*Menu*/
+.navbar{
+    background-color:#d82c2e !important;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar #myNavbar {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+ .navbar #myNavbar{
+    text-align: center !important;
+}
+.navbar-nav li a {
+    color: #fff !important;
+}
+.navbar-nav a:hover, .navbar-nav li.active a{
+    color: #d82c2e !important;
+    background-color: #fff !important;
+}
+
+
 /*About*/
 #about{
     padding-top: 100px;
